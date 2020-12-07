@@ -34,7 +34,7 @@ const About = () => {
                 Hi there! I am <strong>&nbsp;Kostiantyn Borodach</strong>
                 <br />
                 Highly motivated, self-taught developer seeking to launch a
-                career building web aplications and services. I am a Full Stack
+                career building web aplications and services. I am a Front-End 
                 Web Developer with JavaScript, React.js, React Context, Node.js,
                 GraphQL, Prisma as my tech stack.
                 <br />
