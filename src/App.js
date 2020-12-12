@@ -9,6 +9,7 @@ import MyCarousel from "./components/my-carousel/my-carousel.component";
 import TitleMessage from "./components/title-message/title-message.component";
 import About from "./pages/about/about.component";
 import Skills from "./pages/skills/skills.component";
+import TimeLine from "./components/projects-timeline/projects-timeline.component";
 import "./App.css";
 
 const App = () => {
@@ -32,10 +33,20 @@ const App = () => {
           </Container>
         </Parallax>
       </div>
+
       <div>
         <Container className="container-box rounded">
           <Fade duration={500}>
             <Skills />
+          </Fade>
+        </Container>
+      </div>
+
+      <div>
+        <Container className="container-box rounded">
+          <Fade duration={500}>
+            <hr />
+            <TimeLine />
           </Fade>
         </Container>
       </div>

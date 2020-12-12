@@ -16,13 +16,21 @@ const MyScroll = styled.div`
     cursor: pointer;
     transform: rotate(90deg);
   }
+  .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+  }
 `;
 
 const ScrollDown = () => {
   return (
     <MyScroll>
-      <div className="turn">
-        <span> &gt; </span>
+      <div>
+        <span>
+          <a className="turn nav-link" href="#about">
+            &gt;
+          </a>
+        </span>
       </div>
     </MyScroll>
   );
