@@ -36,7 +36,7 @@ const About = () => {
                 Highly motivated, self-taught developer seeking to launch a
                 career building web aplications and services. I am a Front-End 
                 Web Developer with JavaScript, React.js, React Context, Node.js,
-                GraphQL, Prisma as my tech stack.
+                GraphQL and Prisma as my tech stack.
                 <br />
                 Working with the clients, my goal is always driven towards
                 providing amazing experience with the best level of quality and
@@ -58,7 +58,7 @@ const About = () => {
                   </div>
                   <div>
                     <a
-                      href=""
+                      href="https://drive.google.com/file/d/1fJ1Mlzue-HbNkJ8G_yDrFrEpGEs_4-k6/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

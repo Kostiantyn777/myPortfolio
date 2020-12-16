@@ -61,12 +61,7 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> A full stack online
-                        clothing store complete with real credit checkout. Users
-                        can search, sell, add to cart and checkout their
-                        favourite items. The app also includes many server side
-                        bits including JWT authentication, permissions, sending
-                        email, uploading images, and charging credit cards.
+                        <strong>Description:</strong> A full-stack online clothing store complete with real credit checkout. Users can search, sell, add to cart, and check out their favorite items. The app also includes many server-side bits including JWT authentication, permissions, sending an email, uploading images, and charging credit cards.
                         <hr />
                         <strong>Tech used:</strong>
                         <ul>
@@ -258,8 +253,7 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is a a fun game that
-                        tests your typing skills created with React Hooks
+                        <strong>Description:</strong> I coded this app using ReactJS which gives 5 seconds to the user to type words in a text-area as fast as possible and displays the word count in the end. I have used useState, useEffect, useRef hooks and a custom hook as well to build the App component.
                         <hr />
                         <strong>Tech used:</strong>
                         <ul>
