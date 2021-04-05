@@ -1,20 +1,22 @@
 {
   "files": {
     "main.css": "/myPortfolio/static/css/main.970a5639.chunk.css",
-    "main.js": "/myPortfolio/static/js/main.1abd293d.chunk.js",
-    "main.js.map": "/myPortfolio/static/js/main.1abd293d.chunk.js.map",
+    "main.js": "/myPortfolio/static/js/main.fb5f5f3a.chunk.js",
+    "main.js.map": "/myPortfolio/static/js/main.fb5f5f3a.chunk.js.map",
     "runtime-main.js": "/myPortfolio/static/js/runtime-main.b0886c16.js",
     "runtime-main.js.map": "/myPortfolio/static/js/runtime-main.b0886c16.js.map",
-    "static/js/2.007f6d7a.chunk.js": "/myPortfolio/static/js/2.007f6d7a.chunk.js",
-    "static/js/2.007f6d7a.chunk.js.map": "/myPortfolio/static/js/2.007f6d7a.chunk.js.map",
+    "static/js/2.61f2a64e.chunk.js": "/myPortfolio/static/js/2.61f2a64e.chunk.js",
+    "static/js/2.61f2a64e.chunk.js.map": "/myPortfolio/static/js/2.61f2a64e.chunk.js.map",
     "index.html": "/myPortfolio/index.html",
     "static/css/main.970a5639.chunk.css.map": "/myPortfolio/static/css/main.970a5639.chunk.css.map",
-    "static/js/2.007f6d7a.chunk.js.LICENSE.txt": "/myPortfolio/static/js/2.007f6d7a.chunk.js.LICENSE.txt",
+    "static/js/2.61f2a64e.chunk.js.LICENSE.txt": "/myPortfolio/static/js/2.61f2a64e.chunk.js.LICENSE.txt",
     "static/media/apollo-graphql.e6363c14.svg": "/myPortfolio/static/media/apollo-graphql.e6363c14.svg",
     "static/media/contact-form.styles.css": "/myPortfolio/static/media/background.48c0b661.webp",
     "static/media/background.f6814621.webp": "/myPortfolio/static/media/background.f6814621.webp",
+    "static/media/crwn-clothing.4e8490c9.webp": "/myPortfolio/static/media/crwn-clothing.4e8490c9.webp",
     "static/media/css3.8fba365c.svg": "/myPortfolio/static/media/css3.8fba365c.svg",
     "static/media/express.75fff9be.svg": "/myPortfolio/static/media/express.75fff9be.svg",
+    "static/media/firebase.e6583a29.svg": "/myPortfolio/static/media/firebase.e6583a29.svg",
     "static/media/git-icon.c60b7e5a.svg": "/myPortfolio/static/media/git-icon.c60b7e5a.svg",
     "static/media/github.740db6be.svg": "/myPortfolio/static/media/github.740db6be.svg",
     "static/media/graphql.c0d2b1e1.svg": "/myPortfolio/static/media/graphql.c0d2b1e1.svg",
@@ -32,18 +34,21 @@
     "static/media/react-bootstrap.1c7d4dd1.svg": "/myPortfolio/static/media/react-bootstrap.1c7d4dd1.svg",
     "static/media/react-router.a87b7227.svg": "/myPortfolio/static/media/react-router.a87b7227.svg",
     "static/media/react.add74742.svg": "/myPortfolio/static/media/react.add74742.svg",
+    "static/media/redux.0e4fb1c8.svg": "/myPortfolio/static/media/redux.0e4fb1c8.svg",
     "static/media/robofriends.cc5edaac.webp": "/myPortfolio/static/media/robofriends.cc5edaac.webp",
+    "static/media/sass.8aa78a83.svg": "/myPortfolio/static/media/sass.8aa78a83.svg",
     "static/media/sick-fits.08965e86.webp": "/myPortfolio/static/media/sick-fits.08965e86.webp",
     "static/media/slide1.14619b04.webp": "/myPortfolio/static/media/slide1.14619b04.webp",
     "static/media/slide2.d58e7971.webp": "/myPortfolio/static/media/slide2.d58e7971.webp",
     "static/media/slide3.ea32b5ab.webp": "/myPortfolio/static/media/slide3.ea32b5ab.webp",
     "static/media/speed-typing-game.7be3a73b.webp": "/myPortfolio/static/media/speed-typing-game.7be3a73b.webp",
+    "static/media/stripe.c46c2b41.svg": "/myPortfolio/static/media/stripe.c46c2b41.svg",
     "static/media/styled-components.a5fa325c.svg": "/myPortfolio/static/media/styled-components.a5fa325c.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b0886c16.js",
-    "static/js/2.007f6d7a.chunk.js",
+    "static/js/2.61f2a64e.chunk.js",
     "static/css/main.970a5639.chunk.css",
-    "static/js/main.1abd293d.chunk.js"
+    "static/js/main.fb5f5f3a.chunk.js"
   ]
 }
