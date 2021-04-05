@@ -5,7 +5,7 @@ import Card from "react-bootstrap/Card";
 import Image from "react-bootstrap/Image";
 
 // projects
-
+import L_CrwnClothing from "../../assets/img/projects/crwn-clothing.webp";
 import L_SickFits from "../../assets/img/projects/sick-fits.webp";
 import L_ImageShop from "../../assets/img/projects/image-shop.webp";
 import L_MemeGenerator from "../../assets/img/projects/meme-generator.webp";
@@ -17,12 +17,10 @@ import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
 import L_REACT from "../../assets/img/skills/react.svg";
 import L_REACT_ROUTER from "../../assets/img/skills/react-router.svg";
-import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
-import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
+
 import L_STYLED_COMPONENTS from "../../assets/img/skills/styled-components.svg";
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
 import L_EXPRESS from "../../assets/img/skills/express.svg";
-import L_POSTGRESQL from "../../assets/img/skills/postgresql.svg";
 import L_GIT from "../../assets/img/skills/git-icon.svg";
 import L_HEROKU from "../../assets/img/skills/heroku.svg";
 import L_GRAPHQL from "../../assets/img/skills/graphql.svg";
@@ -30,6 +28,10 @@ import L_APOLLOGRAPHQL from "../../assets/img/skills/apollo-graphql.svg";
 import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_PRISMA from "../../assets/img/skills/prisma.svg";
+import L_REDUX from "../../assets/img/skills/redux.svg";
+import L_SASS from "../../assets/img/skills/sass.svg";
+import L_FIREBASE from "../../assets/img/skills/firebase.svg";
+import L_STRIPE from "../../assets/img/skills/stripe.svg";
 
 import "./projects-timeline.styles.css";
 
@@ -39,6 +41,180 @@ const TimeLine = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline>
         <Events>
+          {/* CRWN Clothing*/}
+          <ImageEvent
+            date=""
+            className="text-center"
+            text="CRWN Clothing"
+            src={L_CrwnClothing}
+            alt="CRWN Clothing"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> CRWN Clothing is a
+                        E-Commerce Web APP I built including all the
+                        functionality you would expect in a production App
+                        including Google Sign In, a Shopping Cart and
+                        integration of the Stripe API for handling payments.
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_SASS}
+                                alt="SASS"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Sass
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_JAVASCRIPT}
+                                alt="JAVASCRIPT"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              JavaScript
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT_ROUTER}
+                                alt="REACT ROUTER"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React Router
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REDUX}
+                                alt="REDUX"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Redux
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_FIREBASE}
+                                alt="Firebase"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Firebase
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_STRIPE}
+                                alt="Stripe"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Stripe
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HEROKU}
+                                alt="HEROKU"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Heroku
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_GIT}
+                                alt="GIT"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              GIT
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://kos-crwn-clothing.herokuapp.com/"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/Kostiantyn777/crwn-clothing"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
           {/* E-Commerce store*/}
           <ImageEvent
             date=""
@@ -61,7 +237,12 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> A full-stack online clothing store complete with real credit checkout. Users can search, sell, add to cart, and check out their favorite items. The app also includes many server-side bits including JWT authentication, permissions, sending an email, uploading images, and charging credit cards.
+                        <strong>Description:</strong> A full-stack online
+                        clothing store complete with real credit checkout. Users
+                        can search, sell, add to cart, and check out their
+                        favorite items. The app also includes many server-side
+                        bits including JWT authentication, permissions, sending
+                        an email, uploading images, and charging credit cards.
                         <hr />
                         <strong>Tech used:</strong>
                         <ul>
@@ -134,6 +315,17 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
+                                src={L_NODE_JS}
+                                alt="NODE JS"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Node.js
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
                                 src={L_EXPRESS}
                                 alt="EXPRESS"
                                 rounded
@@ -173,6 +365,17 @@ const TimeLine = () => {
                                 className="image-style1 m-1"
                               ></Image>{" "}
                               Apollo GraphQL
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_STRIPE}
+                                alt="Stripe"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Stripe
                             </span>
                           </li>
                           <li>
@@ -253,7 +456,12 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> I coded this app using ReactJS which gives 5 seconds to the user to type words in a text-area as fast as possible and displays the word count in the end. I have used useState, useEffect, useRef hooks and a custom hook as well to build the App component.
+                        <strong>Description:</strong> I coded this app using
+                        ReactJS which gives 5 seconds to the user to type words
+                        in a text-area as fast as possible and displays the word
+                        count in the end. I have used useState, useEffect,
+                        useRef hooks and a custom hook as well to build the App
+                        component.
                         <hr />
                         <strong>Tech used:</strong>
                         <ul>

@@ -9,7 +9,8 @@ import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import L_STYLED_COMPONENTS from "../../assets/img/skills/styled-components.svg";
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
 import L_EXPRESS from "../../assets/img/skills/express.svg";
-
+import L_REDUX from "../../assets/img/skills/redux.svg";
+import L_SASS from "../../assets/img/skills/sass.svg";
 
 import L_POSTGRESQL from "../../assets/img/skills/postgresql.svg";
 
@@ -21,6 +22,7 @@ import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 
 import L_PRISMA from "../../assets/img/skills/prisma.svg";
+import L_FIREBASE from "../../assets/img/skills/firebase.svg";
 
 export const skills = {
   frontend: [
@@ -56,6 +58,18 @@ export const skills = {
       imgAltText: "React Router",
       imgSrc: L_REACT_ROUTER,
       skillName: "React Router",
+    },
+    {
+      link: "https://redux.js.org/",
+      imgAltText: "Redux",
+      imgSrc: L_REDUX,
+      skillName: "Redux",
+    },
+    {
+      link: "https://sass-lang.com/",
+      imgAltText: "Sass",
+      imgSrc: L_SASS,
+      skillName: "Sass",
     },
     {
       link: "https://material-ui.com/",
@@ -95,6 +109,12 @@ export const skills = {
       imgAltText: "GraphQL Yoga",
       imgSrc: L_GRAPHQL,
       skillName: "GraphQL Yoga",
+    },
+    {
+      link: "https://firebase.google.com/",
+      imgAltText: "Firebase",
+      imgSrc: L_FIREBASE,
+      skillName: "Firebase",
     },
   ],
   queryLanguage: [
