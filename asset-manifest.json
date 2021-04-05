@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/myPortfolio/static/css/main.82d79d77.chunk.css",
-    "main.js": "/myPortfolio/static/js/main.9c31b575.chunk.js",
-    "main.js.map": "/myPortfolio/static/js/main.9c31b575.chunk.js.map",
+    "main.css": "/myPortfolio/static/css/main.970a5639.chunk.css",
+    "main.js": "/myPortfolio/static/js/main.1abd293d.chunk.js",
+    "main.js.map": "/myPortfolio/static/js/main.1abd293d.chunk.js.map",
     "runtime-main.js": "/myPortfolio/static/js/runtime-main.b0886c16.js",
     "runtime-main.js.map": "/myPortfolio/static/js/runtime-main.b0886c16.js.map",
     "static/js/2.007f6d7a.chunk.js": "/myPortfolio/static/js/2.007f6d7a.chunk.js",
     "static/js/2.007f6d7a.chunk.js.map": "/myPortfolio/static/js/2.007f6d7a.chunk.js.map",
     "index.html": "/myPortfolio/index.html",
-    "static/css/main.82d79d77.chunk.css.map": "/myPortfolio/static/css/main.82d79d77.chunk.css.map",
+    "static/css/main.970a5639.chunk.css.map": "/myPortfolio/static/css/main.970a5639.chunk.css.map",
     "static/js/2.007f6d7a.chunk.js.LICENSE.txt": "/myPortfolio/static/js/2.007f6d7a.chunk.js.LICENSE.txt",
     "static/media/apollo-graphql.e6363c14.svg": "/myPortfolio/static/media/apollo-graphql.e6363c14.svg",
     "static/media/contact-form.styles.css": "/myPortfolio/static/media/background.48c0b661.webp",
@@ -29,7 +29,7 @@
     "static/media/postgresql.ae92b576.svg": "/myPortfolio/static/media/postgresql.ae92b576.svg",
     "static/media/prisma.1c35507b.svg": "/myPortfolio/static/media/prisma.1c35507b.svg",
     "static/media/profile.f52059b8.webp": "/myPortfolio/static/media/profile.f52059b8.webp",
-    "static/media/react-bootstrap.534ba574.svg": "/myPortfolio/static/media/react-bootstrap.534ba574.svg",
+    "static/media/react-bootstrap.1c7d4dd1.svg": "/myPortfolio/static/media/react-bootstrap.1c7d4dd1.svg",
     "static/media/react-router.a87b7227.svg": "/myPortfolio/static/media/react-router.a87b7227.svg",
     "static/media/react.add74742.svg": "/myPortfolio/static/media/react.add74742.svg",
     "static/media/robofriends.cc5edaac.webp": "/myPortfolio/static/media/robofriends.cc5edaac.webp",
@@ -38,12 +38,12 @@
     "static/media/slide2.d58e7971.webp": "/myPortfolio/static/media/slide2.d58e7971.webp",
     "static/media/slide3.ea32b5ab.webp": "/myPortfolio/static/media/slide3.ea32b5ab.webp",
     "static/media/speed-typing-game.7be3a73b.webp": "/myPortfolio/static/media/speed-typing-game.7be3a73b.webp",
-    "static/media/styled-components.2e00d138.svg": "/myPortfolio/static/media/styled-components.2e00d138.svg"
+    "static/media/styled-components.a5fa325c.svg": "/myPortfolio/static/media/styled-components.a5fa325c.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b0886c16.js",
     "static/js/2.007f6d7a.chunk.js",
-    "static/css/main.82d79d77.chunk.css",
-    "static/js/main.9c31b575.chunk.js"
+    "static/css/main.970a5639.chunk.css",
+    "static/js/main.1abd293d.chunk.js"
   ]
 }
